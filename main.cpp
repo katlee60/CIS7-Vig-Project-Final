@@ -219,7 +219,7 @@ void encryption(string userPhrase, string map_Key)
 
    cout << endl; // Formatting
 
-  cout << "Thanks for using Lee's Cryption Services!";
+  cout << "Thanks for using Lee's Cypher Services!";
 
    cout << endl; // Formatting
 
@@ -302,7 +302,7 @@ void decryption(string userPhrase, string map_Key)
 
    cout << endl; // Formatting
 
-  cout << "Thanks for using Lee's Cryption Services!";
+  cout << "Thanks for using Lee's Cypher Services!";
 
    cout << endl; // Formatting
 
@@ -324,7 +324,7 @@ int main()
 
   cout << endl; // Formatting
   
-  cout << "Welcome to Lee's Cipher Services!\n";
+  cout << "Welcome to Lee's Cypher Services!\n";
   
   cout << endl; // Formatting
   
