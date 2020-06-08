@@ -324,7 +324,7 @@ int main()
 
   cout << endl; // Formatting
   
-  cout << "Welcome to Lee's Cryption Services!\n";
+  cout << "Welcome to Lee's Cipher Services!\n";
   
   cout << endl; // Formatting
   
