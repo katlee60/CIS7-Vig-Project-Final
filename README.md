@@ -1,2 +1,4 @@
 # CIS7-Vig-Project-Final
-CIS7 - Project Final, Vigenère, Encrypting/Decrypting
+Katie Lee
+15 May 2020
+CIS-7 - Project Final: Vigenère Cypher
