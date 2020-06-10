@@ -213,7 +213,7 @@ void encryption(string userPhrase, string map_Key)
 
   cout << endl; // Formatting
 
-  cout << "Encrypted Text: " << encrypted;
+  cout << "Your Text is now Encrypted: " << encrypted;
   
    cout << endl; // Formatting
 
@@ -223,7 +223,9 @@ void encryption(string userPhrase, string map_Key)
 
    cout << endl; // Formatting
 
-  cout << "To use the utilities again, Restart the program.";
+   cout << endl; // Formatting
+
+  cout << "To use the utility again, Restart the program.";
 
    cout << endl; // Formatting
 
@@ -298,7 +300,7 @@ void decryption(string userPhrase, string map_Key)
 
   cout << endl; // Formatting
 
-  cout << "Decrypted Text: " << decrypted;
+  cout << "Your Text is now Decrypted: " << decrypted;
 
    cout << endl; // Formatting
 
@@ -308,7 +310,9 @@ void decryption(string userPhrase, string map_Key)
 
    cout << endl; // Formatting
 
-  cout << "To use the utilities again, Restart the program.";
+   cout << endl; // Formatting
+
+  cout << "To use the utility again, Restart the program.";
 
    cout << endl; // Formatting
 
@@ -330,7 +334,7 @@ int main()
   
   cout << endl; // Formatting
   
-  cout << "To use our Encryption and Decryption Services,\n";
+  cout << "To use the Encryption and Decryption Services,\n";
 
   cout << "Please enter one of the following numbers & press Enter:\n";
 
@@ -341,8 +345,6 @@ int main()
   cout << " * 2 for Decryption Services.\n";
 
   cout << " * 3 for The Vigenère Table.\n";
-
-  cout << " * 0 to Exit the program.\n";
 
   cout << endl; // Formatting
 
@@ -416,35 +418,8 @@ int main()
       cout << "To use the utilities again, Restart the program.";
     }
 
-      
-
-  // * Choice #0 - Exit Program *
-
-  else if (user_choice == 0)
-
-  {
-    cout << endl; // Formatting
-
-    cout << "To exit the program,";
-
-    cout << "Please press 0 again to confirm.";
-
-    cout << endl; // Formatting
-
-    cin >> user_choice;
-
-    cout << endl; // Formatting
-
-    if (user_choice == 0)
-
-    cout << "Goodbye, This program will now SELF-DESTRUCT.";
-
-    {
-      
-      return 0;
-      
-    }
-  }
 }
+
 return 0;
+
 }
